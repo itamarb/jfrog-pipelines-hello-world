@@ -2,7 +2,7 @@ resources:
   - name: someRepo
     type: GitRepo
     configuration:
-      gitProvider: github   # replace with your integration  
+      gitProvider: GitHub   # replace with your integration  
       path: itamarb/jfrog-pipelines-hello-world    # replace with your repository name
       branches:
         include: master
